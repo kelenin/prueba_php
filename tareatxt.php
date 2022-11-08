@@ -1,5 +1,5 @@
 <?php
-    $archivo = fopen("tmptxt/archivo.txt", "r+");
+    $archivo = fopen("tmptxt/archivo.txt", "w");
     $contenido = "Total de tareas:\n ";
     for($i=0;$i < 1000000; $i++)
     {
